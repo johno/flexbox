@@ -1,0 +1,23 @@
+.flxbx {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flxbx .row {
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flxbx .col {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-left: .25rem;
+  padding-right: .25rem;
+}
