@@ -1,6 +1,6 @@
 {
   "name": "flexbox",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A miniature CSS3 flexbox grid.",
   "main": "index.js",
   "scripts": {
