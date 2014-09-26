@@ -2,4 +2,4 @@
 
 _Currently under development._
 
-Where the flex components for <furtive.co> live.
+Where the flex components for <http://furtive.co> live.
