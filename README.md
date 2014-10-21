@@ -1,6 +1,6 @@
 # Flexbox
 
-A simple flexbox grid system and media object.
+A simple flexbox grid system and media object. Where the flex components for <http://furtive.co> live.
 
 ## Installation
 
