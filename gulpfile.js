@@ -1,12 +1,11 @@
-var gulp    = require('gulp');
-var sass    = require('gulp-sass');
-var rename  = require('gulp-rename');
-var cssmin  = require('gulp-minify-css');
+var gulp    = require('gulp'),
+    sass    = require('gulp-sass'),
+    rename  = require('gulp-rename'),
+    cssmin  = require('gulp-minify-css');
 
 gulp.task('scss', function() {
-  return gulp.src('scss/grid.scss')
+  return gulp.src('scss/*.scss')
     .pipe(sass())
-    .pipe(rename('flexbox.css'))
     .pipe(gulp.dest('css'))
     .pipe(cssmin())
     .pipe(rename({ suffix: '.min' }))

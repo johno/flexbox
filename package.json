@@ -1,7 +1,7 @@
 {
   "name": "flexbox",
-  "version": "0.0.2",
-  "description": "A miniature CSS3 flexbox grid.",
+  "version": "0.0.3",
+  "description": "A collection of flexbox utilities and components.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,9 @@
     "flex",
     "flexbox",
     "grid",
-    "lightweight"
+    "lightweight",
+    "media",
+    "media object"
   ],
   "author": "John Otander",
   "license": "MIT",
