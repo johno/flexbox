@@ -1,0 +1,41 @@
+@custom-media --breakpoint-not-small screen and (min-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
+/*
+
+  FLEXBOX
+
+  Base:
+    d   = display
+    fx  = flex
+    s   = align-self
+    i   = align-items
+    c   = content-start
+    j   = justify-content
+    o   = order
+
+  Modifiers:
+    -start    = string value start
+    -end      = string value end
+    -center   = string value center
+    -baseline = string value baseline
+    -stretch  = string value stretch
+    -between  = string value between
+    -around   = string value around
+
+    f = flex for display
+
+    -none = string value for flex
+
+    1 = 1st step in order scale
+    2 = 2nd step in order scale
+    3 = 3rd step in order scale
+    4 = 4th step in order scale
+    5 = 5th step in order scale
+
+  Media Query Extensions:
+    -ns = not-small
+    -m  = medium
+    -l  = large
+*/
